@@ -237,6 +237,7 @@ li {
     width: 200px;
     height: 200px;
     margin: 20px 0;
+    position: relative;
     display: flex;
     background-color: #da70d6;
     justify-content: center;
