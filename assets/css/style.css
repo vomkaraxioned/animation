@@ -236,7 +236,7 @@ li {
 .box {
     width: 200px;
     height: 200px;
-    margin: 20px 0;
+    margin: 20% 0;
     position: relative;
     display: flex;
     background-color: #da70d6;
