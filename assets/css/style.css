@@ -233,11 +233,17 @@ li {
   main styling starts here
 =================================*/
 
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
 .box {
     width: 200px;
     height: 200px;
     margin: 20% 0;
-    position: relative;
+    position: absolute;
     display: flex;
     background-color: #da70d6;
     justify-content: center;

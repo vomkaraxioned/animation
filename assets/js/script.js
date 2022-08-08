@@ -5,16 +5,16 @@ let box = $(".box");
 
 
 function animation() {
-    box.animate({ width: "100%" }, "slow", function() {
-        box.css("background-color", "#ff0");
+    box.animate({ width: "100%" }, 2000, function() {
+        box.css({ "background-color": "#ff0", "right": "0" });
     });
-    box.animate({ left: '80%', width: '200px' }, "slow", function() {
+    box.animate({ width: '200px' }, 2000, function() {
         box.css("background-color", "#f0f");
     });
-    box.animate({ left: '0', width: '100%' }, "slow", function() {
-        box.css("background-color", "#0ff");
+    box.animate({ width: '100%' }, 2000, function() {
+        box.css({ "background-color": "#ff0", "left": "0" });
     });
-    box.animate({ width: '200px' }, "slow", function() {
+    box.animate({ width: '200px' }, 2000, function() {
         box.css("background-color", "#ff4500");
     });
 }
