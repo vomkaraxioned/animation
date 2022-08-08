@@ -2,8 +2,6 @@
 
 */
 
-$(function() {
-    $(".box").click(function() {
-        alert("working");
-    });
+$(".box").click(function() {
+    alert("working");
 });
