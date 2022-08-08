@@ -1,7 +1,8 @@
 /* Author: 
 
 */
-
-$(".box").click(function() {
-    alert("working");
+$(document).ready(function() {
+    $(".box").click(function() {
+        alert("working");
+    });
 });
